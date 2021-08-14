@@ -1,0 +1,60 @@
+:root {
+    --color-title-1: red;
+    --color-title-2: purple;
+    --color-title-3: rgb(206, 206, 63);
+}
+
+/* navbar */
+
+.links {
+    text-align: center;
+}
+
+.link {
+    margin-right: 15px;
+}
+
+/* homepage */
+
+#homepage {
+    text-align: center;
+    position: relative;
+}
+
+#homepage ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* products */
+
+#products {
+    text-align: center;
+    display: none;
+}
+
+#products ul {
+    list-style-type: none;
+}
+
+/* about-us */
+#about-us {
+    display: none;
+}
+
+/* h tags  */
+
+.title-1 {
+    color: var(--color-title-1);
+    text-align: center;
+}
+
+.title-2 {
+    color: var(--color-title-2);
+}
+
+
+.title-3 {
+    color: var(--color-title-3);
+}
+
